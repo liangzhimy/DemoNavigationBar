@@ -13,6 +13,10 @@
 		50D077971D636B790015F994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D077951D636B790015F994 /* Main.storyboard */; };
 		50D077991D636B790015F994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D077981D636B790015F994 /* Assets.xcassets */; };
 		50D0779C1D636B790015F994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D0779A1D636B790015F994 /* LaunchScreen.storyboard */; };
+		50D077A51D636C900015F994 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D077A41D636C900015F994 /* CustomButton.m */; };
+		50D077A71D636CA30015F994 /* CustomButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50D077A61D636CA30015F994 /* CustomButton.xib */; };
+		50D077AA1D636D770015F994 /* MyNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D077A91D636D770015F994 /* MyNavigationBar.m */; };
+		50D077AD1D636EAF0015F994 /* MyNavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D077AC1D636EAF0015F994 /* MyNavigationBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		50D077981D636B790015F994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50D0779B1D636B790015F994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50D0779D1D636B790015F994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D077A31D636C900015F994 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		50D077A41D636C900015F994 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		50D077A61D636CA30015F994 /* CustomButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomButton.xib; sourceTree = "<group>"; };
+		50D077A81D636D770015F994 /* MyNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationBar.h; sourceTree = "<group>"; };
+		50D077A91D636D770015F994 /* MyNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationBar.m; sourceTree = "<group>"; };
+		50D077AB1D636EAF0015F994 /* MyNavigationBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationBarViewController.h; sourceTree = "<group>"; };
+		50D077AC1D636EAF0015F994 /* MyNavigationBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +78,13 @@
 				50D0779A1D636B790015F994 /* LaunchScreen.storyboard */,
 				50D0779D1D636B790015F994 /* Info.plist */,
 				50D0778C1D636B780015F994 /* Supporting Files */,
+				50D077A31D636C900015F994 /* CustomButton.h */,
+				50D077A61D636CA30015F994 /* CustomButton.xib */,
+				50D077A41D636C900015F994 /* CustomButton.m */,
+				50D077A81D636D770015F994 /* MyNavigationBar.h */,
+				50D077A91D636D770015F994 /* MyNavigationBar.m */,
+				50D077AB1D636EAF0015F994 /* MyNavigationBarViewController.h */,
+				50D077AC1D636EAF0015F994 /* MyNavigationBarViewController.m */,
 			);
 			path = DemoNavigationBar;
 			sourceTree = "<group>";
@@ -136,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50D077A71D636CA30015F994 /* CustomButton.xib in Resources */,
 				50D0779C1D636B790015F994 /* LaunchScreen.storyboard in Resources */,
 				50D077991D636B790015F994 /* Assets.xcassets in Resources */,
 				50D077971D636B790015F994 /* Main.storyboard in Resources */,
@@ -149,9 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50D077AD1D636EAF0015F994 /* MyNavigationBarViewController.m in Sources */,
+				50D077A51D636C900015F994 /* CustomButton.m in Sources */,
 				50D077941D636B790015F994 /* ViewController.m in Sources */,
 				50D077911D636B790015F994 /* AppDelegate.m in Sources */,
 				50D0778E1D636B790015F994 /* main.m in Sources */,
+				50D077AA1D636D770015F994 /* MyNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
